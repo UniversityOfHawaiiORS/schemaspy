@@ -208,11 +208,13 @@
         <profile>
             <id>grm</id>
             <!-- comment out activation section to turn this profile off permanently-->
+<!-- UH MOD grm profile is on by default and only works for kualiCo so we need to turn it off
             <activation>
                 <property>
                     <name>!grm.off</name>
                 </property>
             </activation>
+-->
 
             <properties>
                 <scm.connection>scm:git:git://github.com/kualico/schemaspy.git</scm.connection>
